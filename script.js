@@ -15,3 +15,7 @@ let randomNumber2 = Math.round(Math.random() * (max - min) + min);
 console.log(randomNumber2);
 
 //Comprueba el funcionamiento del método sign(). 
+
+console.log("Math.sign(-10):", Math.sign(-10)); // -1
+console.log("Math.sign(0):", Math.sign(0)); // 0
+console.log("Math.sign(10):", Math.sign(10)); // 1
